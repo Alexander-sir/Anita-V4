@@ -1,13 +1,13 @@
 {
-  "name": "Queen Anita V4",
-  "description": "A WhatsApp Bot Created By David Cyril",
+  "name": "WATTOO_TECH",
+  "description": "A WhatsApp Bot Created By BABAR WATTOO",
   "logo": "https://telegra.ph/file/f6230a0cb5b118fa01561.jpg",
   "keywords": ["bot", "WhatsApp", "JavaScript"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"EHx9NVJKkJ8eEZGU4ZPcW7RzuUHLnXQu/GmfgZuZPmw="},"public":{"type":"Buffer","data":"Fn9GO4EPjRzZJOVgi+A2EcUXVjeQjBKLDqsn+iB2RCI="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"wM5p4AZBL4xELWNB0pbh19qejAaBml/oqReu42kqs0k="},"public":{"type":"Buffer","data":"N2CKkMYXjT3RnMCVukn8WEQQUchmF8hFa5eYHhZr7lk="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"WB+OT3tRxCQxEsTGMLzfleF3Ow7h4htki4lQKZROE2g="},"public":{"type":"Buffer","data":"6TPF3UNRzVn/MeLHnmd4QcrPP32ruI0iW6YNi1HcVno="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"aLPEJIrbkfZPY82S/qoF9Tpzhl94HR7YbLH41ooogUg="},"public":{"type":"Buffer","data":"go+vDtOB9tV4QT6Qisl9QY4a2s3c1o/cu0HNxf3aIQE="}},"signature":{"type":"Buffer","data":"5EsiuoMMvWi6DGMzjQsEMYFe43GiopWt2AVmzIFReWjubrU6no0Gf8w0pcDB9IPuOMqiASjiXv/h/HiCdNJ6iw=="},"keyId":1},"registrationId":72,"advSecretKey":"QEEc8baznIaeMNG9lTTMXSllX81dnCjmFojMbZ5u+Sk=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"EP6EHH7qQr21_rk2u5nGgg","phoneId":"57845932-0de8-4a97-871c-a187ad93b052","identityId":{"type":"Buffer","data":"HN4O0sEO1hYe01f1E6Hw0tirbGM="},"registered":true,"backupToken":{"type":"Buffer","data":"Tad6J1lWpvji1u9fn85bJptMiPY="},"registration":{},"pairingCode":"AXSNMVVL","me":{"id":"923438195143:8@s.whatsapp.net","name":"KALI LINUX NET HUNTER"},"account":{"details":"CPis3uICENfEisEGGAEgACgA","accountSignatureKey":"yi1CIH2X31D3ZbqcAhzB54FNhJO0JTNnd2ej149m11s=","accountSignature":"TAe6QEJTo0JyvaiW991bWSKFWTZFlCELgFVOHYzywJAUuNMLowQRTqGKWkJN+Z/TnhWDSKlS9WE76c3Wf/b+Cg==","deviceSignature":"EPwRfIfN/IIczOrVFfuAj9P6XlmfGrpt7HT9QI5k8n9L9/viAP4+uub5r+LvoN7hejMBHQFMIhaq7/o/A9sKgw=="},"signalIdentities":[{"identifier":{"name":"923438195143:8@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BcotQiB9l99Q92W6nAIcweeBTYSTtCUzZ3dno9ePZtdb"}}],"platform":"smba","lastAccountSyncTimestamp":1747100261}",
       "value": ""
     },
     "PREFIX": {
@@ -16,7 +16,7 @@
     },
     "AUTO_REACT": {
       "description": "Set true to auto-react to messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "WELCOME": {
@@ -31,7 +31,7 @@
     },
     "CHATBOT": {
       "description": "Set to true if you want your bot to autoreply messages.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -41,15 +41,15 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "923438195143"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
-      "value": "public"
+      "value": "private"
     },
     "AUTHOR": {
       "description": "Put Sticker Pack Author_Name.",
-      "value": "𝐃𝐀𝐕𝐈𝐃 𝐂𝐘𝐑𝐈𝐋",
+      "value": "WATTOO_TECH",
       "required": false
     }
   },
